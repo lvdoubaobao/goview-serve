@@ -1,0 +1,24 @@
+{
+    "name": "xczn/goviewserve",
+    "description": "goview后端laravel实现",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xczn\\GoViewServe\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xczn"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xczn\\GoViewServe\\GoviewServiceProvider"
+            ]
+        }
+    }
+}
